@@ -1,36 +1,23 @@
-div.container {
-    width: 100%;
-    border: 1px solid gray;
-}
-
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: blue;
-    clear: left;
-    text-align: center;
-}
-
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
-
-nav ul {
+ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-   
-nav ul a {
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
+li a:hover {
+    background-color: #111;
 }
-
